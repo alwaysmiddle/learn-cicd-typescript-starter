@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: added coverage
-        run: npm -install @vitest/coverage-v8 --save-dev
+        run: npm install @vitest/coverage-v8
 
       - name: Run tests
         run: npm run test -- --coverage
