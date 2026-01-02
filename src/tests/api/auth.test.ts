@@ -14,5 +14,3 @@ describe("person", () => {
     expect(person.isActive).toBeTruthy();
   });
 });
- 
-//this is a test file for testing auth api
