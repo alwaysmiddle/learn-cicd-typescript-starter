@@ -5,7 +5,7 @@ const person = {
   age: 32,
 };
 
-describe("person", () !=> {
+describe("person", () => {
   test("person is defined", () => {
     expect(person).toBeDefined();
   });
